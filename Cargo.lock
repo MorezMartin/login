@@ -1777,6 +1777,7 @@ dependencies = [
 [[package]]
 name = "rocketlauncher"
 version = "0.1.0"
+source = "git+https://github.com/MorezMartin/rocketlauncher.git#7a7203565f80bb1f2a01fb5421dbea53cc676b7b"
 dependencies = [
  "email-address-parser",
  "nanoid",

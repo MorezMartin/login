@@ -86,6 +86,11 @@ impl Component for Model {
         html! {
             <form>
                 <div>
+                {
+                    if true {
+                        html! { <div>{ "true" }</div> }
+                    } else { html!{ } }
+                }
                     <label for="email">{ "Enter your email:" }</label>
                     <input type="email" id="email" required=true value=self.value.email
                         oninput=self.link.callback(|p: InputData| Msg::GotEmail(p.value))

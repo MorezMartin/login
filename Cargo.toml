@@ -10,6 +10,6 @@ edition = "2018"
 yew = "0.17"
 serde_json = "1.0.59"
 anyhow = "1.0.40"
-rocketlauncher = { path = "/home/marty/Code/rocketlauncher", version="0.1.0" }
+rocketlauncher = { git = "https://github.com/MorezMartin/rocketlauncher.git", version="0.1.0" }
 serde = "1.0.117"
 getrandom = { version = "0.2" , features = ["js"] }
